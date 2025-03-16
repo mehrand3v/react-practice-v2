@@ -1,11 +1,14 @@
-
+import { ThemeProvider } from './components/ThemeProvider'
+import Home from '@/pages/Home'
 
 function App() {
 
   return (
-    <>
-<h1 className="text-3xl font-bold underline">Hello World</h1>
-    </>
+     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <Home />
+    </ThemeProvider>
+
+
   )
 }
 
