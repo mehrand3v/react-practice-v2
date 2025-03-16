@@ -1,3 +1,4 @@
+// "Please create a [component name] using shadcn theme variables like bg-card, text-foreground, border-border for styling instead of hardcoded colors."
 @import "tailwindcss";
 
 @plugin 'tailwindcss-animate';
