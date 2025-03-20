@@ -1,7 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Dashboard from "@/pages/Dashboard";
-import Customers from "@/pages/Customers";
-import Sales from "@/pages/Sales";
+
 import NotFound from "@/pages/NotFound";
 import ErrorPage from "@/pages/ErrorPage";
 // Ensure that your routes are passed to a React Router component
