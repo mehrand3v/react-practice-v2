@@ -25,13 +25,13 @@ const routes = [
     element: <Layout />,
     errorElement: <ErrorPage />, // Handles crashes, API failures, etc.
     children: [
-      { index: true, element: <Dashboard /> }, // Default to  Dashboard
-      { path: "customers", element: <Customers /> }, // Customer list
-      { path: "sales", element: <Sales /> }, // Sales list
-      //   { path: "customers/billing", element: <MonthlyBillingStatement /> }, // Billing statement page
-      //   { path: "customers/transactions", element: <TransactionSummary /> }, // Transaction history page
-      //   { path: "customers/transactions/new", element: <TransactionForm /> }, // Add new transaction form
-      //   { path: "transactions", element: <TransactionSummary /> }, // Direct transactions page
+      { index: true, element: <PlaceholderPage /> }, // Default to  Dashboard
+      { path: "customers", element: <PlaceholderPage /> }, // Customer list
+      { path: "sales", element: <PlaceholderPage /> }, // Sales list
+      //   { path: "customers/billing", element: <PlaceholderPage /> }, // Billing statement page
+      //   { path: "customers/transactions", element: <PlaceholderPage /> }, // Transaction history page
+      //   { path: "customers/transactions/new", element: <PlaceholderPage /> }, // Add new transaction form
+      //   { path: "transactions", element: <PlaceholderPage /> }, // Direct transactions page
       { path: "dashboard", element: <Navigate to="/" replace /> }, // Redirect to default
       { path: "*", element: <NotFound /> }, // 404 Not Found
     ],
